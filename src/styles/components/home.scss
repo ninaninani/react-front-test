@@ -1,0 +1,48 @@
+#home{
+    // margin: auto;
+    padding: 1rem;
+    width:500px
+}
+
+#search-form {
+    margin-bottom: 25px;
+    display: flex;
+    input{
+        flex-grow: 1;
+        margin-right: 15px;
+    }
+    button{
+        margin: 5px 0 15px;
+        width: fit-content;
+        padding-left: 15px;
+        padding-right: 15px;
+        
+    }
+}
+
+#birthdate-gender{
+    display:flex;
+    #birthdate{
+        flex-grow: 1;
+        width: 100%;
+        margin-right: 15px;
+        .react-datepicker-wrapper{
+            width: 100%;
+        }
+    }
+    #gender{
+        width: 200px;
+        // flex-grow: 1;
+    }
+}
+
+#ext-phone{
+    display:flex;
+    #ext{
+        flex: 1 1 0;
+        margin-right: 15px
+    }
+    #phone{
+        flex: 4 1 0;
+    }
+}
